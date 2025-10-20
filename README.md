@@ -1,4 +1,4 @@
-News Near Duplicate Detection
+###News Near Duplicate Detection
 
 Overview
 
