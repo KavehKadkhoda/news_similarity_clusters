@@ -1,6 +1,6 @@
-###News Near Duplicate Detection
+***News Near Duplicate Detection***
 
-Overview
+**Overview**
 
 This repository demonstrates how to identify clusters of news articles that are highly similar. It fetches articles from a Trino database, computes character shingles for each article, builds MinHash signatures and uses locality sensitive hashing to find near duplicate pairs. The notebook loads articles within a configurable date range, optionally removes records with repeated source addresses, and writes out both pairwise similarity scores and groupings of similar articles. The goal is to help analysts detect redundant content in large news collections.
 
