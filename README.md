@@ -6,7 +6,7 @@ This repository demonstrates how to identify clusters of news articles that are 
 
 ### Data source and environment
 
-The notebook expects a table called `news.collected_news` with columns `url` and `text`, and a column `created_at` containing creation dates. Connection details for Trino — host name, user name and catalog — are read from the environment. You can run the notebook locally or in a cloud notebook as long as those variables are set. The date range for analysis is controlled through the `start_date` and `end_date` variables near the top of the notebook. If either value is missing the code will use an open ended range. You can also choose whether to drop records that share the same source address.
+The notebook expects a table called `news.collected_news` with columns `url` and `text`, and a column `created_at` containing creation dates.
 
 ### Dependencies
 
